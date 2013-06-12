@@ -2,8 +2,6 @@ class GreetingsController < ApplicationController
   
   caches_page :hello
 
-  self.page_cache_directory = Rails.public_path
- 
   def hello
   	@message = "I'm a Rails 4.0.0.Beta1 Application"
 
