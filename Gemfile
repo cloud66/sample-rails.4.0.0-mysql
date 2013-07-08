@@ -5,6 +5,8 @@ gem 'rails', '4.0.0'
 
 ruby "2.0.0"
 
+gem 'resque' 
+
 gem 'unicorn'
 
 gem 'actionpack-page_caching'
