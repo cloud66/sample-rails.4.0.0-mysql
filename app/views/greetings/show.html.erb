@@ -1,7 +1,8 @@
-<h2><%= @ball.id %></h2>
+<h2>Ball: <%= @ball.id %></h2>
 
 This ball has <%=@ball.dimples%> dimples
-
+<br/><br/>
 Its random_size = <%= @ball.randomsize %>
+(Was it cached internally? <%= @ball.is_cached %>)
 
 
