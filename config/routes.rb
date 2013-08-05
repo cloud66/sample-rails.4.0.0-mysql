@@ -3,6 +3,10 @@ Sample::Application.routes.draw do
   get "greetings/hello"
   
   get "/", to: 'greetings#hello'
+
+  get "/show", to: 'greetings#show'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
