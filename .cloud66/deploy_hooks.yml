@@ -3,6 +3,6 @@ development:
     source: /.cloud66/files/broken.conf
     destination: /tmp/broken.sh
     target: rails
-    apply_during: all
+    apply_during: build_only
     run_on: all_servers	
     execute: true
