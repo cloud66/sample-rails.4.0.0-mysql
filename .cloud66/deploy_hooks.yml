@@ -5,4 +5,4 @@ development:
     target: rails
     apply_during: build_only
     run_on: all_servers	
-    execute: true
+    execute: false
