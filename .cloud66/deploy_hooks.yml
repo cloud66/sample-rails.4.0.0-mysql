@@ -1,7 +1,7 @@
 development:
   first_thing:
-    - source: /.cloud66/files/broken.conf
-      destination: /opt/somewhere/broken.conf
-      target: rails
-      apply_during: all
-      run_on: all_servers
+    source: /.cloud66/files/broken.conf
+    destination: /tmp/somewhere/broken.conf
+    target: rails
+    apply_during: all
+    run_on: all_servers
