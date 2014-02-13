@@ -10,7 +10,7 @@ gem 'unicorn'
 gem 'actionpack-page_caching'
 
 # Use mysql2 as the database for Active Record
-gem 'mysql2', , :git => "git://github.com/brianmario/mysql2"
+gem 'mysql2', :git => "git://github.com/brianmario/mysql2"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
