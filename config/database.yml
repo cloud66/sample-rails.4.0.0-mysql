@@ -1,0 +1,20 @@
+defaults: &defaults
+  adapter: mysql2
+  encoding: utf8
+  reconnect: true
+  host: <%= ENV['DBHOST'] || "localhost" %>
+  pool: 5
+  username: <%= ENV['DBUSER'] || "root" %>
+  password: <%= ENV['DBPASS'] %>
+
+development:
+  <<: *defaults
+  database: rails_development
+
+test: &TEST
+  <<: *defaults
+  database: rails_development
+
+production:
+  <<: *defaults
+  database: rails_production
